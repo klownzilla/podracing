@@ -1,0 +1,25 @@
+baseURL = "https://podracing.net/"
+defaultContentLanguage = "en"
+theme = "hermit"
+ 
+languageCode = "en-us"
+
+title = "Podracing"
+
+#disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+
+[params.author]
+  name = "Admin"
+
+[params]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "go away"
+  footerCopyright = "COPYLEFT"
+  
+  justifyContent = false
+  shareSocial = true
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/klownzilla"
