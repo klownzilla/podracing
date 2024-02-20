@@ -4,7 +4,7 @@ theme = "hermit"
  
 languageCode = "en-us"
 
-title = "Podracing"
+title = "go away"
 
 disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robotstxt"]
 
@@ -14,7 +14,7 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
 [params]
   themeColor = "#494f5c"
 
-  homeSubtitle = "go away"
+  homeSubtitle = "-- podracing.net --"
   footerCopyright = "COPYLEFT"
   
   justifyContent = false
