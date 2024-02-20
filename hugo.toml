@@ -23,3 +23,7 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
   [[params.socialLinks]]
     name = "github"
     url = "https://github.com/klownzilla"
+
+    [[params.socialLinks]]
+    name = "email"
+    url = "admin@podracing.net"
