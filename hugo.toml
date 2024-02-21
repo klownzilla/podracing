@@ -12,6 +12,7 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
   name = "Site Admin"
 
 [params]
+  description = "Only a small website..."
   themeColor = "#494f5c"
 
   homeSubtitle = "-- podracing.net --"
