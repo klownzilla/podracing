@@ -19,7 +19,8 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
   footerCopyright = "COPYLEFT"
   
   justifyContent = false
-  shareSocial = true
+  shareSocial = false
+  code_copy_button = false
 
   [[params.socialLinks]]
     name = "github"
