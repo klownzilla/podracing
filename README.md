@@ -1,3 +1,2 @@
-# podracing
-podracing.net Website
+# podracing.net Website
 Made using Hugo/Hermit-V2
