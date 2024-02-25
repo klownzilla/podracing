@@ -1,3 +1,4 @@
 # podracing
 podracing.net Website
-Made using Hugo/Hermit-V2
+
+Made using Hugo/modified Hermit-V2
