@@ -1,0 +1,30 @@
+baseURL = 'https://podracing.net'
+languageCode = 'en-us'
+title = "go away"
+theme = 'hermit-v2'
+
+defaultContentLanguage = "en"
+
+disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robotstxt"]
+
+[params.author]
+  name = "Site Admin"
+
+[params]
+  description = "Only a small website..."
+  themeColor = "#494f5c"
+
+  homeSubtitle = "-- podracing.net --"
+  footerCopyright = "COPYLEFT"
+  
+  justifyContent = false
+  shareSocial = false
+  code_copy_button = false
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/klownzilla"
+
+    [[params.socialLinks]]
+    name = "email"
+    url = "admin@podracing.net"
