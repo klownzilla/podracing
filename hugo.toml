@@ -12,7 +12,7 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
 
 [params]
   description = "Only a small website..."
-  themeColor = "#494f5c"
+  themeColor = "#45484f"
 
   homeSubtitle = "-- podracing.net --"
   footerCopyright = "COPYLEFT"
