@@ -1,7 +1,0 @@
-{{ range . -}}
-{{ if (eq .name "email") }}
-<a href="mailto:{{ .url | safeURL }}" target="_blank" rel="noopener me" title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a>
-{{ else }}
-<a href="{{ .url | safeURL }}" target="_blank" rel="noopener me" title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a>
-{{- end -}}
-{{- end -}}
