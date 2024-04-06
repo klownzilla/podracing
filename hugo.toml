@@ -12,7 +12,6 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
 
 [params]
   description = "Only a small website..."
-  themeColor = "#45484f"
 
   homeSubtitle = "-- podracing.net --"
   footerCopyright = "COPYLEFT"
@@ -25,6 +24,6 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
     name = "github"
     url = "https://github.com/klownzilla"
 
-    [[params.socialLinks]]
+  [[params.socialLinks]]
     name = "email"
     url = "admin@podracing.net"
