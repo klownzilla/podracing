@@ -1,7 +1,7 @@
-baseURL = 'https://podracing.net'
-languageCode = 'en-us'
+baseURL = "https://podracing.net"
+languageCode = "en-us
 title = "go away"
-theme = 'hermit-v2'
+theme = "hermit-v2"
 
 defaultContentLanguage = "en"
 
@@ -12,6 +12,7 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
 
 [params]
   description = "Only a small website..."
+  themeColor = "#282a36"
 
   homeSubtitle = "-- podracing.net --"
   footerCopyright = "COPYLEFT"
