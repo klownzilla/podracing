@@ -1,0 +1,6 @@
+<p>
+	{{ now.Format "2006" }} {{ .Site.Params.author.name }} &#183; {{ .Site.Params.footerCopyright | safeHTML }}
+	{{- with .OutputFormats.Get "RSS" }}
+	&#183; <a href="{{ "index.xml" | absLangURL }}" target="_blank" title="rss">{{- partial "svg.html" (dict "context" . "name" "rss") -}}</a>
+	{{- end -}}
+</p>
