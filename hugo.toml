@@ -1,6 +1,5 @@
 baseURL = "https://podracing.net"
 languageCode = "en-us"
-title = "go away"
 theme = "hermit-v2"
 
 defaultContentLanguage = "en"
