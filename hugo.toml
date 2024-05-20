@@ -3,7 +3,6 @@ languageCode = "en-us"
 theme = "hermit-v2"
 
 defaultContentLanguage = "en"
-title = "-- podracing.net --"
 
 disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robotstxt"]
 
