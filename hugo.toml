@@ -1,16 +1,16 @@
-baseURL = "https://podracing.net"
+baseURL = "https://podracing.net/"
 languageCode = "en-us"
 theme = "hermit-v2"
 
 defaultContentLanguage = "en"
+title = "-- podracing.net --"
 
 disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robotstxt"]
 
 [params.author]
-  name = "Site Admin"
+  name = "kzilla"
 
 [params]
-  title = "-- podracing.net --"
   description = "A small site..."
   themeColor = "#282a36"
 
