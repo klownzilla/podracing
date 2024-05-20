@@ -26,4 +26,4 @@ disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robots
 
   [[params.socialLinks]]
     name = "email"
-    url = "kzila@podracing.net"
+    url = "kzilla@podracing.net"
