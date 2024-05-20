@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap", "robotstxt"]
 
 [params.author]
-  name = "kzilla"
+  name = "Site Admin"
 
 [params]
   description = "A small site..."
