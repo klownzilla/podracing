@@ -55,8 +55,8 @@
       stars.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        // Tiny dots: 0.4px to 1.1px
-        size: Math.random() * 0.7 + 0.4,
+        // Particle radius: 0.8px to 1.9px
+        size: Math.random() * 1.1 + 0.8,
         // Ultra-slow upward drift: -0.06 to -0.20 px per frame
         vy: -(Math.random() * 0.14 + 0.06),
         // Faint horizontal sway: -0.03 to +0.05
