@@ -12,7 +12,7 @@
 	{{- if (or .Site.Params.images .Site.Params.bgImg) }}
 	<div class="bg-img"></div>
 	{{- end }}
-	<div id="spotlight" class="animated fadeIn">
+	<div id="spotlight" class="animated fadeIn" style="position:relative;z-index:1;">
 		<div id="home-center">
 			{{- with .Site.Title }}
 			<h1 id="home-title">{{ . }}</h1>

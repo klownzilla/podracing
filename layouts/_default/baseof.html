@@ -22,10 +22,13 @@
 {{- if templates.Exists "partials/extra-head.html" -}}{{- partial "extra-head.html" . -}}{{- end -}}
 </head>
 <body id="page">
+<canvas id="bg-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;" aria-hidden="true"></canvas>
 {{- if .Site.Params.googleTagManager -}}{{- partial "googleTagManager_body.html" . -}}{{- end -}}
 {{- block "header" . -}}{{ end -}}
 {{- block "main" . -}}{{ end -}}
 {{- block "footer" . -}}{{ end -}}
+{{- $stars := resources.Get "js/starfield.js" | minify | fingerprint -}}
+<script defer src="{{ $stars.Permalink }}" {{ printf "integrity=%q" $stars.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
 {{- range .Params.custom_js -}}
 {{ $c_js := resources.Get . | minify | fingerprint -}}
 <script defer src="{{ $c_js.Permalink }}" {{ printf "integrity=%q" $c_js.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
